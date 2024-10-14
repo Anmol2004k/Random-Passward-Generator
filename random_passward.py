@@ -23,7 +23,7 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 #  Super Hard level
 password_list = []
-for char in range(0, nr_letters):                          #range is start from 0,1,2,3  (if we click 4 letters)
+for char in range(0, nr_letters):                         #range is start from 0,1,2,3  (if we click 4 letters)
     password_list.append(random.choice(letters))
 
 for char in range(0, nr_symbols):
